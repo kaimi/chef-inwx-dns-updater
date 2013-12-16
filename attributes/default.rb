@@ -10,7 +10,7 @@ default['inwx-dns-updater']['version'] = "master"
 default['inwx-dns-updater']['user'] = "daemon"
 default['inwx-dns-updater']['email'] = "mail@domain.tld"
 default['inwx-dns-updater']['frequency'] = "5" # in minutes
-default['inwx-dns-updater']['logfile'] = "/var/log/inwx-dns-updater"
+default['inwx-dns-updater']['logfile'] = "/var/log/inwx-dns-updater.log"
 
 # required attributes
 default['inwx-dns-updater']['hostname'] = "sub.domain.tld"
