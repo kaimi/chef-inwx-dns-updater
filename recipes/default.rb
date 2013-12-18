@@ -5,6 +5,11 @@
 # Copyright 2013, ka’imi
 #
 
+# install dependencies
+%w{bash curl dnsutils}.each do |p|
+  package p
+end
+
 application "inwx-dns-updater" do
   path node['inwx-dns-updater']['dir']
   owner node['inwx-dns-updater']['user']
