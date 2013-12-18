@@ -2,7 +2,7 @@ inwx-dns-updater Cookbook
 =====================
 
 This installs
-[the InterNetworkX DNS Updater][https://github.com/kaimi/inwx-dns-updater].
+[the InterNetworkX DNS Updater](https://github.com/kaimi/inwx-dns-updater).
 
 Requirements
 ------------
